@@ -5,7 +5,7 @@ import java.io.InputStreamReader;
 import java.util.HashMap;
 
 /**
- * Created by User15 on 18.07.2017.
+Класс чтения пропертей из файла и анализ на ошибки
  */
 public class Property {
 
@@ -63,7 +63,7 @@ public class Property {
         HashMap rez = new HashMap();
 
         try{
-            FileInputStream fileInputStream = new FileInputStream("src/SSoft.properties");
+            FileInputStream fileInputStream = new FileInputStream("SSoft.properties");
             BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(fileInputStream));
             String strLine;
             int strNumber = 1; // номер строки для отображение ошибок

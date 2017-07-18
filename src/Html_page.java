@@ -1,9 +1,13 @@
 import java.io.*;
 import java.util.HashMap;
 
+/**
+ Класс генерации html страницы
+ */
+
 public class Html_page {
 
-    private static String findKey(String strLine) {
+    private static String findKey(String strLine) { //ищем в строке из шаблона ключ для вставки из пропертей
 
         StringBuilder sKey = new StringBuilder();
 
