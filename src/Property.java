@@ -9,7 +9,7 @@ import java.util.HashMap;
  */
 public class Property {
 
-    private static void parseLine(String strLine, int strNumber,StringBuilder key, StringBuilder val) { //преобразование строки файла в "ключ" "значение"
+    private static void parseLine(String strLine, int strNumber,StringBuilder key, StringBuilder val) { //Преобразование строки файла в "ключ" "значение"
 
         char[] chrMass = new char[strLine.length()];
         Boolean keyFlag = false;
